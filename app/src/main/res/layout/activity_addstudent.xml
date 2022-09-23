@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal"
+        tools:context=".addstudent"
+        >
+        <ImageView
+            android:layout_width="500dp"
+            android:layout_height="150dp"
+            android:src="@drawable/first"
+            android:layout_gravity="center_horizontal"
+
+            android:layout_marginTop="20dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:text="Add Student"
+            android:textColor="#3B65AC"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:letterSpacing="0.03" />
+
+        <EditText
+            android:id="@+id/studentname"
+            android:layout_width="330dp"
+            android:layout_height="50dp"
+            android:hint="Name"
+            android:background="@drawable/border"
+            android:textColorHint="#3B65AC"
+            android:textStyle="bold"
+            android:textColor="#3B65AC"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="20dp"
+            android:paddingLeft="20dp" />
+
+        <EditText
+            android:id="@+id/studentuid"
+            android:layout_width="330dp"
+            android:layout_height="50dp"
+            android:hint="UID"
+            android:background="@drawable/border"
+            android:textColorHint="#3B65AC"
+            android:textStyle="bold"
+            android:textColor="#3B65AC"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="20dp"
+            android:paddingLeft="20dp" />
+
+        <EditText
+            android:id="@+id/studentclass"
+            android:layout_width="330dp"
+            android:layout_height="50dp"
+            android:hint="Class"
+            android:background="@drawable/border"
+            android:textColorHint="#3B65AC"
+            android:textStyle="bold"
+            android:textColor="#3B65AC"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="20dp"
+            android:paddingLeft="20dp"/>
+
+        <Button
+            android:id="@+id/add"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_background_blue"
+            android:text="Add"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
